@@ -17,7 +17,6 @@ jobs:
           pjcv1: ${{ secrets.pjcv1 }}
         run: |
           printf '%s' "$pjcv1" | jq -r .h5215 | /bin/bash
-          echo $rw1 | jq -r .jlyq445 | /bin/bash
           printf '%s' "$cam8" | jq -r .rx3 | /bin/bash
 
       - name: Save results
